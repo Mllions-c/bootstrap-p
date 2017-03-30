@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>弹出框</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<style type="text/css">
+a:focus {
+	outline: none;
+}
+#range{width: 300px; height: 100px; border: 1px solid red}/*设置弹出框范围*/
+</style>
+
+</head>
+<body style="margin:200px ">
+<div id="range">
+<button id="b" class="btn btn-danger btn-lg"
+				data-toggle="popover"
+				title="bootstrap"
+				data-content="Bootstrap是Twitter推出的一个用于前端开发的开源工具包。它由Twitter的设计师Mark Otto和Jacob Thornton合作开发,是一个CSS/HTML框架" 
+				data-placement="right"
+>
+点击弹出/隐藏弹出框
+</button>
+<br><br><br><br>
+<button id="btn">外部按钮</button>
+</div>
+<script src="../../js/jquery-3.1.1.min.js"></script><script src="../../js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$('#b').popover({
+		/*viewport:'#range'*/ //简单写
+		viewport:{
+			selector:'#range',
+			padding:10,
+		}
+	});
+/*设置外部按钮点击隐藏*/
+$('#btn').on('click',function(){
+	$('#b').popover('toggle');//show/hide/destroy
+});
+//触发事件
+$('#b').on('show.bs.popover',function () {
+	alert('显示前触发事件')
+});
+$('#b').on('shown.bs.popover',function () {
+	alert('显示后触发事件')
+});
+$('#b').on('hide.bs.popover',function () {
+	alert('hide前触发事件')
+});
+$('#b').on('hidden.bs.popover',function () {
+	alert('hide后触发事件')
+});
+</script>
+</body>
+</html>

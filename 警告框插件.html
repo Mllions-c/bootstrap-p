@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>警告框</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<style type="text/css">
+a:focus {
+	outline: none;
+}
+#range{width: 300px; height: 100px; border: 1px solid red}/*设置弹出框范围*/
+</style>
+
+</head>
+<body style="margin:200px ">
+<!-- 官方-->
+<div class="alert alert-warning alert-dismissible fade in" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+  	<span aria-hidden="true">&times;</span>
+  </button>
+  <strong>Warning!</strong> Better check yourself, you're not looking too good.
+</div>
+
+<!-- 教程方法一 -->
+<div class="alert alert-warning  fade in">
+  <button class="close" data-dismiss="alert">
+  	<span>&times;</span>
+  </button>
+ 	<p> Better check yourself, you're not looking too good.</p>
+</div>
+<!-- 教程方法二 ,用jquery实现-->
+<div id="alert" class="alert alert-warning fade in">
+  <button class="close" >
+  	<span>&times;</span>
+  </button>
+  <p>警告:您的浏览器不支持</p>
+</div>
+
+<script src="../../js/jquery-3.1.1.min.js"></script><script src="../../js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+/*教程方法二*/
+/*$('.close').on('click',function(){
+	$('#alert').alert('close')
+});
+
+$('#alert').on('close.bs.alert',function(){
+	alert('关闭前触发')
+});
+
+$('#alert').on('closed.bs.alert',function(){
+	alert('关闭后触发')
+});*/
+</script>
+</body>
+</html>

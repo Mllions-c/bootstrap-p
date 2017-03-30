@@ -1,0 +1,10 @@
+/*平板宽度（768~1200）*/
+@media screen and (min-width:768px) and (max-width:1200px) {
+body{ background: pink; }
+	#wrap{ width:95%;}
+	#top{ height: 60px; }
+	.clear{ height: 20px;}
+	#left{height: 150px; width:100%; line-height: 150px;  margin-bottom: 15px;}
+	#right{height:150px;  width:100%;line-height: 150px; }
+	#bottom{height: 40px; }
+}

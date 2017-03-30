@@ -1,0 +1,90 @@
+#subnav{ min-width: 1024;height: 30px; background: black;}
+	#subnav li{display: inline-block;color:white; margin-left: 20px;}
+	#sub_warp{ margin: 0 auto; width: 800px;border: 1px solid green; }
+	#sub_li_warp_l{ float: left; }
+	#sub_li_warp_r{ float: right ; }
+/*subnav-end*/
+	
+#nav{ margin-bottom:38px;height: 56px;border: 1px solid red; line-height: 50px;}
+	#nav_wrap{ margin:0 auto;width: 800px;  }
+	#nav_logo_wrap{ width:260px; float: left;}
+	
+	#nav li{ display: inline-block; margin-left: 20px}
+#main{ margin:0 auto;width: 1024px; border: 1px solid green; overflow: hidden; }
+.person{ background-image: url(../../../img/touxiang2.png) ; background-repeat: no-repeat;
+background-position:289px 42px;}
+#content_wrap{width:700px;border: 1px solid red;float: left;}
+#content1{ width:700;height:135px; }
+#c3_2{}
+#content2{padding: 56px 1px 10px 1px; width:700;height: 185px;
+text-align:center;}
+#content2 img{ margin-top: -40px; margin-right: 10px;float: right; }
+#content2 li{ margin: 10px 0; }
+#content2 .name{ font-size: 30px; color:#333; line-height: 20px;height: 40px;}
+#content3{ width:700;}
+#content3 .con_3_wrap{ margin:0 auto;width:600px;height: 46px; line-height:36px;  }
+#content3 .con_3_wrap .con_3_wrap_l{ width:528px;height: 36px; float:left; line-height:36px}
+#content3 .con_3_wrap .con_3_wrap_l span{ width: 150px; border-bottom: 1px solid #F3F3F3; display:inline-block;
+ }
+ #content3 .con_3_wrap .con_3_wrap_l .span_l{ width:250px}
+ #content3 .con_3_wrap .con_3_wrap_l .span_icon{ width:90px; height:30px; line-height:30px;background:#F1F1F1; display:inline-block; text-align:center;
+ border-radius:10px; }
+#content3 .con_3_wrap .i_wrap{ float:right; text-align:center; line-height:38px;}
+#content3 .con_3_wrap .i_wrap em{ color:#00b88d; font-size:16px;font-style:normal}
+#content3 i{ height:18px; width:18px; display:inline-block;  background:url(../../../img/add.png) -2px -3px;vertical-align:middle}
+#content3 .con_3_wrap2{height:100px; width:600px; margin:20px auto; padding-top:5px; }
+#content3 .con_3_wrap2 .inner_wrap{line-height:30px;float:left;border: 1px solid green;  }
+#content3 .con_3_wrap2  .text_wrap{ float:right; line-height:40px; }
+.left{ clear: both;height: 100px; line-height: 20px; border: 1px solid green; }
+#content3 .con_3_wrap2  .text_wrap .con_3_i{ height:18px; width:18px;}
+
+#content3 .con_3_wrap2  .text_wrap .firstline{line-height:18px; text-align:right;}
+
+                	<div>
+                    		<h3>北京瑞丰科技（北京）有限公司</h3>
+                       		<span> web前端开发工程师</span>
+                    </div>
+                	<div class="text_wrap">
+                    		<i class="con_3_i"></i>
+                        <em>编辑</em>
+                        <span>2015.06 — 至今</span>
+                     </div>
+ #content4{ width:700;height: 272px;border: 1px solid red;}
+#content5{ width:700;height: 661px;border: 1px solid red;}
+#content6{ width:700;height: 194px;border: 1px solid red;}
+#content7{ width:700;height: 108px;border: 1px solid red;}
+#content8{ width:700;height: 290px;border: 1px solid red;}
+#content9{ width:700;height: 94px;border: 1px solid red;}
+#content10{ width:700;height: 20px;border: 1px solid red;}
+#sidebar{ width:282px;height:708px;border: 1px solid blue; float: right;}
+#sidebar2{ width:282px;height:68px;border: 1px solid red;}
+#sidebar3{ width:282px;height:59px;border: 1px solid red;}
+#sidebar4{ width:282px;height:77px;border: 1px solid red;}
+#sidebar5{ width:282px;height:450px;border: 1px solid red;}
+
+body{margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+    color: #787676;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;}
+div,ul,li,dl,dd,dt,p,ol,h1,h2,h3,h4,h5{padding: 0;margin: 0; list-style: none; line-height:14px;}
+div{box-shadow:none}
+em{ font-style:normal}
+a,input,button{ outline:none; }
+::-moz-focus-inner{border:0px;}
+/*a:link {color:#0f0;text-decoration:none;} 
+a:visited {color: #FFFF00; text-decoration:none;} 
+a:hover {color: #00FF00; text-decoration:underline;} 
+a:active {color: #0000FF; text-decoration:underline;}*/
+a{color: #000;}
+word-break:break-all /*文字换行*/
+/*white-space:nowrap 文字不换行*/
+
+/*/*默认滚动条样式修改ie9 google Firefox 等高版本浏览器有效*/
+/*::selection {background: #D03333;color: white;text-shadow: none;}
+::-webkit-scrollbar-track-piece{width:10px;background-color:#f2f2f2}
+::-webkit-scrollbar{width:10px;height:6px}
+::-webkit-scrollbar-thumb{height:50px;background-color:rgba(0,0,0,.3);}
+::-webkit-scrollbar-thumb:hover{background:#cc0000}**/

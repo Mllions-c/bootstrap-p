@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>李焱bootstrap7</title>
+<link rel="stylesheet" type="text/css" href="../../js/bootstrap.min.css">
+	<style type="text/css">
+		.a{ height: 50px; width: 200px; background: #eee; }
+	</style>
+</head>
+<body style="margin: 50px">
+ i和span都行
+<i class="glyphicon glyphicon-star"></i>
+<span class="glyphicon glyphicon-star"></span>
+按钮图标组合
+<button class= "btn btn-defalt btn-lg"><i class="glyphicon glyphicon-star"></i></button>
+ 
+
+<div class="dropdown">
+ 	<button class="btn btn-defalt" data-toggle="dropdown">
+         下拉菜单
+ 		<i class="caret"></i>
+ 	</button>
+ 	<ul class="dropdown-menu">
+        <li class="dropdown-header">网站导航</li>
+ 		<li><a href="#">首页</a></li>
+ 		<li><a href="#">咨询</a></li>
+ 		<li><a href="#">产品</a></li>
+ 		<li class="divider"><a href="#">关于</a></li>
+ 		<li class="disabled"><a href="#">转换</a></li>
+ 	</ul>
+
+ </div>
+ 按钮小组
+<div class="btn-group">
+ 	<button class="btn btn-default">左边</button>
+    <button class="btn btn-default">中间</button>
+    <button class="btn btn-default">右边</button>
+ </div> 大组：外面包裹class="btn-toolbar"
+ 
+ 
+ 小组嵌套下拉菜单组
+ <div class="btn-group">
+ 	<button class="btn btn-default">左边</button>
+    <button class="btn btn-default">中间</button>
+    <button class="btn btn-default">右边</button>
+    <div class="btn-group">
+ 	<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+         下拉菜单
+ 		<i class="caret"></i>
+ 	</button>
+ 	<ul class="dropdown-menu">
+        <li class="dropdown-header">网站导航</li>
+ 		<li><a href="#">首页</a></li>
+ 		<li><a href="#">咨询</a></li>
+ 		<li><a href="#">产品</a></li>
+ 		<li class="divider"><a href="#">关于</a></li>
+ 		<li class="disabled"><a href="#">转换</a></li>
+ 	</ul>
+
+ </div>
+ </div>
+垂直菜单小组
+<div class="btn-group-vertical">
+<button class="btn btn-default">左边</button>
+<button class="btn btn-default">中间</button>
+<button class="btn btn-default">右边</button>
+</div>
+两端对齐，不能用button
+<div class="btn-group-justified">
+<a class="btn btn-default">左边</a>
+<a class="btn btn-default">中间</a>
+<a class="btn btn-default">右边</a>
+</div>
+  分割按钮式下拉菜单
+    <div class="btn-group">
+        <button class="btn btn-default">
+               下拉菜单
+         </button>
+ 	<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+         
+ 		<i class="caret"></i>
+ 	</button>
+ 	<ul class="dropdown-menu">
+        <li class="dropdown-header">网站导航</li>
+ 		<li><a href="#">首页</a></li>
+ 		<li><a href="#">咨询</a></li>
+ 		<li><a href="#">产品</a></li>
+ 		<li class="divider"><a href="#">关于</a></li>
+ 		<li class="disabled"><a href="#">转换</a></li>
+ 	</ul>
+ </div>  dorpdown都可以改成dorpup，成为向上拉
+ 
+
+<script src="../../js/jquery-3.1.1.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>

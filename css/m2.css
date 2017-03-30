@@ -1,0 +1,10 @@
+/*手机宽度（768px）*/
+@media screen and (max-width:768px) {
+	body{ background: silver }
+	#wrap{ width:95%;}
+	#top{ height: 50px; margin-top: 5px; }
+	.clear{ height: 10px;}
+	#left{height: 100px; width:100%; line-height: 100px;  margin-bottom: 15px;}
+	#right{height:100px;  width:100%;line-height: 100px; }
+	#bottom{height: 30px; }
+}
